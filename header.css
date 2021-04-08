@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background: transparent;
+  font-family: sans-serif;
+  background-image: url('https://cdn.glitch.com/b5e96b55-dd9e-4815-8310-ac645c4e2b90%2FWebsiteBackground.svg?v=1616794784762');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+
+
+header {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+/*flaot: left or display: inline-block left*/
+
+nav li{
+  display: inline-block;
+  margin-left: 3rem;
+  padding-top: 25px;
+  
+  position: relative;
+}
+
+nav ul > li > a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20;
+  vertical-align: center;
+}
+
+nav a:hover {
+  color: #48c1bc;
+  font-weight: bold;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #48c1bc;
+  
+  position: absolute;
+  top: 0;
+  width: 0%;
+  
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}

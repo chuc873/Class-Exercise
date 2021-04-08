@@ -1,0 +1,116 @@
+element.style {
+}
+.ysos-header--standard {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.p-0 {
+    padding: 0!important;
+}
+.position-relative {
+    position: relative!important;
+}
+.align-items-start {
+    align-items: flex-start!important;
+}
+.justify-content-end {
+    justify-content: flex-end!important;
+}
+.bg-transparent {
+    background-color: transparent!important;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-link, .navbar {
+    padding: .5rem 1rem;
+}
+.nav, .navbar {
+    flex-wrap: wrap;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6f6f6f;
+    background-color: #fff;
+}
+body, caption {
+    text-align: left;
+}
+:root {
+    --blue: $value;
+    --indigo: $value;
+    --purple: $value;
+    --pink: $value;
+    --orange: $value;
+    --yellow: $value;
+    --green: $value;
+    --teal: $value;
+    --cyan: $value;
+    --gray: $value;
+    --gray-dark: $value;
+    --primary: $value;
+    --secondary: $value;
+    --success: $value;
+    --info: $value;
+    --warning: $value;
+    --danger: $value;
+    --light: $value;
+    --dark: $value;
+    --gray--lavender: $value;
+    --gray--lavender--dark: $value;
+    --gray--dark: $value;
+    --gray--light: $value;
+    --gray--lighter: $value;
+    --gray--lightest: $value;
+    --gray--white: $value;
+    --gray--purplish: $value;
+    --gray--purplish--dark: $value;
+    --gray--warm: $value;
+    --red: $value;
+    --pale-red: $value;
+    --dark-red: $value;
+    --black: $value;
+    --black--70: $value;
+    --black--80: $value;
+    --black--90: $value;
+    --white: $value;
+    --breakpoint-xs: $value;
+    --breakpoint-sm: $value;
+    --breakpoint-md: $value;
+    --breakpoint-lg: $value;
+    --breakpoint-xl: $value;
+    --breakpoint-2xl: $value;
+    --font-family-sans-serif: $font-family-sans-serif;
+    --font-family-monospace: $font-family-monospace;
+}
+html {
+    font-size: 18px;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
